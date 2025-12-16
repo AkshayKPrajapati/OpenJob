@@ -44,21 +44,36 @@ class ThemeConfig {
       backgroundColor: Colors.white,
       elevation: 16,
     ),
+
+
+
+    /*
     cardTheme: CardTheme(
       color: Colors.white,
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
     ),
+
+    */
+
+
+
+
+
+
+
+
+
     textTheme: TextTheme(
       displayLarge:
-          TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: textDark),
+      TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: textDark),
       displayMedium:
-          TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: textDark),
+      TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: textDark),
       displaySmall:
-          TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: textDark),
+      TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: textDark),
       headlineMedium:
-          TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: textDark),
+      TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: textDark),
       bodyLarge: TextStyle(fontSize: 16, color: textDark),
       bodyMedium: TextStyle(fontSize: 14, color: textDark),
     ),
@@ -121,12 +136,20 @@ class ThemeConfig {
       backgroundColor: Color(0xFF242526),
       elevation: 16,
     ),
-    cardTheme: CardTheme(
+
+
+
+    /*cardTheme: CardTheme(
       color: Color(0xFF242526),
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-    ),
+    )*/
+
+
+
+
+
     textTheme: TextTheme(
       displayLarge: TextStyle(
           fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
