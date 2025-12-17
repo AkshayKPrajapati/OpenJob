@@ -32,7 +32,7 @@ class ThemeConfig {
       centerTitle: true,
       iconTheme: IconThemeData(color: Colors.white),
     ),
-    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+    bottomNavigationBarTheme: const BottomNavigationBarThemeData(
       backgroundColor: Colors.white,
       selectedItemColor: primaryBlue,
       unselectedItemColor: backgroundGrey,
